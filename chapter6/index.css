@@ -1,0 +1,48 @@
+body, h2, div, p {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: black;
+    height: 100vh;
+}
+
+header {
+    height: 25%; 
+    background-color: yellow;
+}
+
+#content {
+    height: 50%; 
+    background-color: green;
+}
+
+#sidebar {
+    float: left;
+    height: 100%;
+    width: 30%; 
+    background-color: blue;
+}
+
+#main {
+    float: left;
+    height: 100%;
+    width: 70%; 
+    background-color: gray;
+}
+
+footer {
+    height: 25%; 
+    background-color: red;
+}
+
+#title {
+    text-align: center;
+    align-content: center;
+}
+
+#maker {
+    text-align: right;
+    margin-right: 20px;
+}
